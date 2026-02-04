@@ -1,0 +1,18 @@
+h1{
+    color: goldenrod;
+    font-weight: 900;
+    font-style: italic;
+}
+/* bolder to make it recognisable*/
+h2,
+h3 { color: rgb(41, 3, 59);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: larger;
+} /* to make sure they are differentiated from paragraphs*/
+h3 ~p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input [type="text"] {
+    width: 250px;
+    color: rgb(1, 29, 1);
+}

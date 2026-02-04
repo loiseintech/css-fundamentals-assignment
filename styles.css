@@ -5,7 +5,7 @@ h1{
 }
 /* bolder to make it recognisable*/
 h2,
-h3 { color: rgb(41, 3, 59);
+h3 {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: larger;
 } /* to make sure they are differentiated from paragraphs*/

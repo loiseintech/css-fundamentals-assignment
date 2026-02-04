@@ -7,30 +7,33 @@
             p{
                 color: sienna;
             }
+            #p1{
+                font-style: oblique;
+            }
+            .p3{
+                color: rgba(150, 0, 0, 1);
+            }
         </style>
         <title>Loise Events</title>
         <link rel="stylesheet" href="styles.css">
+         <!--an external css file is preferred coz
+          it makes the code appear neater-->
+        <a href="#forms"> SIGN UP</a>
     </head>
     <body>
         <header>
             <h1>Loise Events</h1>
             <P id="p1">Our company offers services for all your events</P>
-            <style> #p1 {
-                font-style : oblique;
-                }
-            </style>
+             <!--an ID is used to style a single element
+         while a class can be used to style different elements-->
         </header>
         <main>
             <article>
                 <h2>Services</h2>
                 <p>We provide catering services for all events</p>
                 <p class="p3">We also do decors for all type of events</p>
-                <style> .p3{
-                    color: rgba(red, green, blue, alpha);
-                }
-                    </style>
                 <aside>
-                    <p style="color:darkslategrey">We have out own caters and decorators</p>
+                    <p style="color:darkslategrey;">We have out own caters and decorators</p>
                 </aside>
             </article>
         </main>
@@ -40,6 +43,7 @@
             <p>They also vary with what other services you require</p>
             <p>They range from Ksh.50,000 </p>
         </section>
+        <H2 ID="forms">Sign Up</p>
         <form>
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname"><br>
@@ -47,5 +51,5 @@
             <input type="text" id="lname" name="lname"><br>
             <input type="submit" value="submit">
         </form>
-    </body>
+</body>
 </html>

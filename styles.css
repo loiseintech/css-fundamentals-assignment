@@ -12,7 +12,10 @@ h3 { color: rgb(41, 3, 59);
 h3 ~p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-input [type="text"] {
+input[type="text"] {
     width: 250px;
     color: rgb(1, 29, 1);
+}
+h3+p{
+    color: black;
 }
